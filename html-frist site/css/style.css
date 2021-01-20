@@ -11,9 +11,10 @@ hr {
   border-width: 5px;
 }
 
-img {
+.anandhu {
   height: 300px;
   width: 150px;
+  border-radius: 100%;
 }
 
 h1 {
@@ -21,9 +22,14 @@ h1 {
   text-align: center;
   color: #707070;
 }
+
 h3 {
   text-shadow: 2px 2px 5px #707070;
   text-indent: 20px;
   text-align: justify;
   color: #707070;
+}
+
+.cse {
+  text-align: center;
 }
