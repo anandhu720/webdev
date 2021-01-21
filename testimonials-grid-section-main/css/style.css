@@ -3,10 +3,8 @@ body {
   margin: 100px;
 }
 
-/*
-.main-body {
-} */
 .daniel {
+  border-radius: 25px;
   text-align: left;
   color: white;
   padding: 50px;
@@ -15,6 +13,7 @@ body {
 }
 
 .jonathan {
+  border-radius: 25px;
   text-align: left;
   color: white;
   padding: 50px;
@@ -23,6 +22,7 @@ body {
 }
 
 .harmon {
+  border-radius: 25px;
   text-align: left;
   padding: 50px;
   margin: 10px;
@@ -30,6 +30,7 @@ body {
 }
 
 .kira {
+  border-radius: 25px;
   text-align: left;
   padding: 50px;
   margin: 10px;
@@ -37,6 +38,7 @@ body {
 }
 
 .abras {
+  border-radius: 25px;
   text-align: left;
   color: white;
   padding: 50px;
@@ -80,26 +82,33 @@ body {
   margin-right: 30px;
 }
 
+/* heading */
 .heading-danial {
+  padding: 0.25px;
   line-height: 0.75%;
 }
 
 .heading-jonathan {
+  padding: 0.25px;
   line-height: 0.75%;
 }
 
 .heading-harmon {
+  padding: 0.25px;
   line-height: 0.75%;
 }
 
 .heading-abras {
+  padding: 0.25px;
   line-height: 0.75%;
 }
 
 .heading-kira {
+  padding: 0.25px;
   line-height: 0.75%;
 }
 
+/* discription */
 .dic-daniel {
   margin-top: 50px;
   clear: left;
