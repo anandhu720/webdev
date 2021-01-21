@@ -32,6 +32,10 @@ h3 {
   padding: 100px;
 }
 
+.bottom-container {
+  background-color: #bee5d3;
+}
+
 .profile {
   margin: 0;
   background-color: #30e3ca;
@@ -39,6 +43,11 @@ h3 {
 
 .skills {
   background-color: #11999e;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
 }
 
 .top-cloud {
@@ -66,4 +75,69 @@ h3 {
 
 #programmer {
   font-size: 50px;
+}
+
+hr {
+  border: dotted #487e95;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+a {
+  text-decoration: none;
+  font-family: Yusei Magic, sans-serif;
+  font-size: 60%;
+}
+
+a:hover {
+  color: #ec4646;
+}
+
+.copyright {
+  color: white;
+  font-size: 1rem;
+}
+
+.condact-me {
+  background: #16b2ef;
+  background-image: -webkit-linear-gradient(top, #16b2ef, #1e62d0);
+  background-image: -moz-linear-gradient(top, #16b2ef, #1e62d0);
+  background-image: -ms-linear-gradient(top, #16b2ef, #1e62d0);
+  background-image: -o-linear-gradient(top, #16b2ef, #1e62d0);
+  background-image: -webkit-gradient(to bottom, #16b2ef, #1e62d0);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 9px;
+  line-height: 9px;
+  color: #ffffff;
+  font-family: Georgia;
+  width: 200px;
+  font-size: 40px;
+  font-weight: 100;
+  padding: 24px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337fed 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.condact-me:hover {
+  border: solid #337fed 1px;
+  background: #1e62d0;
+  background-image: -webkit-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -moz-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -ms-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -o-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -webkit-gradient(to bottom, #1e62d0, #3d94f6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
 }
