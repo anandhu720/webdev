@@ -1,7 +1,40 @@
-.main-body {
-  color: whilte;
+body {
+  background-color: hsl(0, 0%, 81%);
+  margin: 100px;
 }
+/*
+.main-body {
+} */
 
 .daniel {
+  color: white;
+  padding: 50px;
+  margin: 10px;
   background-color: hsl(263, 55%, 52%);
+}
+
+.jonathan {
+  color: white;
+  padding: 50px;
+  margin: 10px;
+  background-color: hsl(217, 19%, 35%);
+}
+
+.harmon {
+  padding: 50px;
+  margin: 10px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.kira {
+  padding: 50px;
+  margin: 10px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.abras {
+  color: white;
+  padding: 50px;
+  margin: 10px;
+  background-color: hsl(219, 29%, 14%);
 }
