@@ -2,8 +2,13 @@ body {
   background-color: hsl(0, 0%, 81%);
   margin: 100px;
 }
+.main-Body {
+  position: relative;
+}
 
 .daniel {
+  position: absolute;
+  width: 25%;
   border-radius: 25px;
   text-align: left;
   color: white;
@@ -13,6 +18,9 @@ body {
 }
 
 .jonathan {
+  position: absolute;
+  right: 100px;
+  width: 25%;
   border-radius: 25px;
   text-align: left;
   color: white;
@@ -22,6 +30,7 @@ body {
 }
 
 .harmon {
+  width: 25%;
   border-radius: 25px;
   text-align: left;
   padding: 50px;
@@ -30,6 +39,7 @@ body {
 }
 
 .kira {
+  width: 25%;
   border-radius: 25px;
   text-align: left;
   padding: 50px;
@@ -38,6 +48,7 @@ body {
 }
 
 .abras {
+  width: 25%;
   border-radius: 25px;
   text-align: left;
   color: white;
@@ -49,35 +60,30 @@ body {
 /* images making round */
 .daniel-img {
   border-radius: 50%;
-  width: 10%;
   float: left;
   margin-right: 30px;
 }
 
 .jonathan-img {
   border-radius: 50%;
-  width: 10%;
   float: left;
   margin-right: 30px;
 }
 
 .harmon-img {
   border-radius: 50%;
-  width: 10%;
   float: left;
   margin-right: 30px;
 }
 
 .abras-img {
   border-radius: 50%;
-  width: 10%;
   float: left;
   margin-right: 30px;
 }
 
 .kira-img {
   border-radius: 50%;
-  width: 10%;
   float: left;
   margin-right: 30px;
 }
