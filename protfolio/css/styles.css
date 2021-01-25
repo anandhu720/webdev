@@ -6,12 +6,15 @@ h1 {
 }
 
 #title {
-  background-color: #f8dc81;
+  font-family: "Yusei Magic", sans-serif;
+  line-height: 1.5;
+  background-color: white;
 }
 h1 {
   font-family: "Yusei Magic", sans-serif;
   line-height: 1.5;
   font-size: 3rem;
+  font-weight: 500;
 }
 
 .col-lg-6 {
@@ -23,8 +26,19 @@ h1 {
   padding: 3% 15%;
 }
 
-.coding-img {
+.top-image {
   margin-top: 3%;
-  height: 50rem;
-  width: 50rem;
+}
+
+.anandhu-heading {
+  color: #f58634;
+  font-size: 5rem;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.condact-me-button {
+  margin: 5% 3% 5% 0%;
 }
