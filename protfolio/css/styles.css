@@ -5,6 +5,14 @@ h1 {
   font-weight: 900;
 }
 
+h2 {
+  font-family: "Yusei Magic", sans-serif;
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #e3e3e3;
+}
+
 #title {
   font-family: "Yusei Magic", sans-serif;
   line-height: 1.5;
@@ -118,4 +126,10 @@ h1 {
 .dsadis {
   text-align: center;
   font-size: 1.5rem;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ee6f57;
 }
