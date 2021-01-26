@@ -10,6 +10,7 @@ h1 {
   line-height: 1.5;
   background-color: white;
 }
+
 h1 {
   font-family: "Yusei Magic", sans-serif;
   line-height: 1.5;
@@ -28,6 +29,7 @@ h1 {
 
 .top-image {
   margin-top: 3%;
+  border-radius: 25px;
 }
 
 .anandhu-heading {
@@ -45,7 +47,7 @@ h1 {
 
 .web-dev {
   padding: 5%;
-  background-color: #f7f7e8;
+  background-color: white;
   border-radius: 25px;
   line-height: 2rem;
 }
@@ -53,7 +55,67 @@ h1 {
 .dsa {
   width: inherit;
   padding: 5%;
-  background-color: #c7cfb7;
+  background-color: white;
   border-radius: 25px;
   line-height: 2rem;
+}
+
+.skills-row {
+  width: auto;
+}
+
+.webdevimg {
+  width: 300px;
+  margin: 20px 100px;
+  border-radius: 25px;
+}
+
+.array {
+  width: 255px;
+  margin: 20px 100px;
+  border-radius: 25px;
+}
+
+.webdevheading {
+  margin: 20px 100px;
+  text-align: center;
+  color: #f58634;
+  text-shadow: 0.5px 0.5px black;
+  font-size: 2.5rem;
+}
+
+.dsaheading {
+  margin: 20px 100px;
+  text-align: center;
+  color: #f58634;
+  text-shadow: 0.5px 0.5px black;
+  font-size: 2.5rem;
+}
+
+.skillsheading {
+  text-align: center;
+}
+
+.skills {
+  font-size: 5rem;
+  color: #f58634;
+  text-shadow: 2px 2px black;
+}
+
+.webdevclass {
+  text-align: center;
+}
+
+.arrayclass {
+  text-align: center;
+}
+
+.webdevdis {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.dsadis {
+  text-align: center;
+  font-size: 1.5rem;
 }
