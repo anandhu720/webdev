@@ -42,3 +42,18 @@ h1 {
 .condact-me-button {
   margin: 5% 3% 5% 0%;
 }
+
+.web-dev {
+  padding: 5%;
+  background-color: #f7f7e8;
+  border-radius: 25px;
+  line-height: 2rem;
+}
+
+.dsa {
+  width: inherit;
+  padding: 5%;
+  background-color: #c7cfb7;
+  border-radius: 25px;
+  line-height: 2rem;
+}
