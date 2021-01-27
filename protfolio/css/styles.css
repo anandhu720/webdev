@@ -208,10 +208,51 @@ h1 {
   font-weight: 500;
   color: black;
 }
+
 .source-file-button {
   margin: 3% 3% 3% 0%;
 }
 
 .project-head {
+  margin: 35px 35px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  #skills {
+    text-align: center;
+  }
+  .webdevimg {
+    margin: auto;
+  }
+  .array {
+    margin: auto;
+  }
+  .dsaheading {
+    margin: 25px 25px;
+  }
+}
+
+.icons {
+  margin: 25px;
+}
+
+.social-networks {
   text-align: center;
+}
+
+#footer {
+  background-color: #ee6f57;
+  margin: 0;
+}
+
+.last-dis {
+  margin: 0;
+  padding: 2px;
+  text-align: center;
+  font-family: "Yusei Magic", sans-serif;
+  line-height: 1.5;
+  color: white;
 }
