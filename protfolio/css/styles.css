@@ -211,3 +211,7 @@ h1 {
 .source-file-button {
   margin: 3% 3% 3% 0%;
 }
+
+.project-head {
+  text-align: center;
+}
