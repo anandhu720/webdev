@@ -1,11 +1,33 @@
 var noOfDrumButtons = document.querySelectorAll(".drum").length;
 
-var audio = new Audio("sounds/tom-1.mp3");
-
+//for mouse
 function handleClick() {
   var htmlInner = this.innerHTML;
 
-  switch (htmlInner) {
+  makeSound(htmlInner);
+  buttonAnimation(htmlInner);
+}
+
+//for keyboard
+document.addEventListener("keypress", function (event) {
+  makeSound(event.key);
+  buttonAnimation(event.key);
+});
+
+function makeSound(key) {
+  switch (key) {
+    case "w":
+      var audio = new Audio("sounds/tom-1.mp3");
+      audio.play();
+      break;
+    case "a":
+      var audio = new Audio("sounds/tom-2.mp3");
+      audio.play();
+      break;
+    case "s":
+      var audio = new Audio("sounds/tom-3.mp3");
+      audio.play();
+      break;
     case "w":
       var audio = new Audio("sounds/tom-1.mp3");
       audio.play();
@@ -41,4 +63,13 @@ function handleClick() {
 
 for (var i = 0; i < noOfDrumButtons; i++) {
   document.querySelectorAll(".drum")[i].addEventListener("click", handleClick);
+}
+
+//animation for buttons
+function buttonAnimation(currentKey) {
+  var activeButton = document.querySelector("." + currentKey);
+  activeButton.classList.add("pressed");
+  setTimeout(function () {
+    activeButton.classList.remove("pressed");
+  }, 100);
 }
