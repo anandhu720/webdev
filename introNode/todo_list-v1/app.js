@@ -1,5 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const mongoose = require("mongoose");
 const date = require(__dirname + "/public/js/date.js");
 
 const app = express();
@@ -9,8 +10,8 @@ app.use(express.static("public"));
 
 app.set("view engine", "ejs");
 
-let items = [];
-let workItems = [];
+// let items = [];
+// let workItems = [];
 
 app.get("/", function(req, res) {
     let day = date.findDate();
